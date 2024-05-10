@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+
+.sidebar .brand-name {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .links li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 140px;
+
+}
+
+.sidebar .links li:hover {
+    background-color: white;
+    color: green;
+}
+
+.sidebar .links i {
+    margin-right: 10px;
+}
+
+.sidebar .links span {
+    margin-right: 10px;
+}
+
+
+/* MAIN PAGE  */
+
+.main-page {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+}
+
+.header {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.header .brand-name {
+    text-align: center;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > * {
+    margin-right: 10px;
+}
+.header button {
+    background-color: green;
+    border: transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.header button:hover {
+    background-color: white;
+    color: green;
+    border: green solid 1px;
+}
+
+/* CARDS  */
+
+.card {
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.8);
+}
+
+.card-top-img {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.activity {
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* FOR SMALL SCREENS  */
+
+@media screen and (max-width: 576px) {
+
+    .main-page {
+        left: 0;
+    }
+   
+    .sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .sidebar-name{
+        display: none;
+    }
+}

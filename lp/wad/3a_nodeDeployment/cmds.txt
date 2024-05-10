@@ -1,0 +1,18 @@
+-> npm init
+// to initialise node. Add details that will be saved in JSON file
+// These details include project-name, auhor, etc.
+
+-> npm i express
+// to install express
+
+-> write code in index.js 
+
+-> create public folder and add dashboard files
+// to store the files that we are going to serve
+
+-> node index.js
+// once the webpage code is written, run the local server
+
+-> localhost:4000
+// run this in chrome to view webpage
+

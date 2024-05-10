@@ -1,0 +1,32 @@
+-> mkdir Part-A  //created a directory
+
+-> git --version
+
+-> //Create repo on GitHub
+
+-> //create file in the folder 
+
+-> git init //to initialise
+
+-> git add .  //to add multiple files
+
+-> git status  //to check status
+
+-> git remote add origin "[add repo https link]"  
+
+-> git commit -m "[write a message]"
+
+-> git status
+
+-> git push -u origin main
+
+//To add second file
+
+-> git add .
+
+-> git status
+
+-> git commit -m "[write a message]"
+
+-> git push // for second time push
+

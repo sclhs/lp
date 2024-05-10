@@ -1,0 +1,24 @@
+
+//on both vm
+-> ifconfig
+
+//on vm1
+-> sudo apt install net-tools
+
+-> ping [address of vm2]
+
+//on both vm
+->ls
+
+//on vm1
+-> touch abc.txt
+
+-> ls
+
+-> nano abc.txt
+
+//ctrl x -> y -> enter
+
+-> cat abc.txt
+
+-> scp abc.txt vagrant@[add of vm2]:/home/vagrant

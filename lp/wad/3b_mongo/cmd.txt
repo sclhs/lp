@@ -1,0 +1,46 @@
+3B
+
+->npm init
+
+//create file index.js and mongodb.js
+
+//go to mongodb, connect it
+
+-> show dbs
+
+-> use student
+
+-> db.createCollection('profile')
+
+-> db.profile.insertOne({name:"Rucha", email:"rucha@123", city:"Nagar"})
+
+//go to vscode
+
+-> npm i mongodb
+
+-> npm install express
+
+//write the code in mongodb.js and in index.js file
+
+-> node index.js
+
+
+//write code for get api
+
+-> node index.js
+// go to postman -> get 
+then click send
+
+
+//write code for post api
+
+-> node index.js
+// go to postman -> PoST -> body -> raw
+// { 
+     "name":"Suyash",
+    "email":"yash12@gmail.com",
+    "city":"pune"
+ }
+then click send
+
+//Similar for other

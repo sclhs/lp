@@ -1,0 +1,15 @@
+3A
+
+-> npm init
+package.json is created
+
+// create index.js file in same folder
+
+-> npm install express --save
+
+//write the code in index.js file
+// create a folder public 
+
+-> node index.js
+
+//search the localhost:4000 on web
